@@ -1,0 +1,27 @@
+Luraph v14 Opcode Mapping Analysis
+============================================================
+
+ARITHMETIC OPCODES
+------------------------------------------------------------
+  DIV: 1 instances
+
+MEMORY OPCODES
+------------------------------------------------------------
+  LOADK: 1 instances
+  LOADNIL: 1 instances
+  NEWTABLE: 1 instances
+
+JUMP/CONTROL OPCODES
+------------------------------------------------------------
+  JMP: 5 instances
+  CJMP: 2 instances
+  RETURN: 134 instances
+
+MAPPING SUMMARY
+------------------------------------------------------------
+Total Identified Opcodes: 145
+Standard Lua 5.1 Opcodes: 37
+
+NOTE: For complete opcode mapping, dynamic execution analysis is required.
+Static analysis can identify patterns, but exact opcode assignments
+require capturing the VM state during execution.

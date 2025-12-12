@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Lua
+*.luac
+luac.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+*.bak
+*.backup
+.cache/
+
+# Output files
+output/
+out/
+results/
+*.log
+ANALYSIS_REPORT.txt
+extracted_bytecode.bin
+reconstructed.luac
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Project-specific
+deobfuscated/
+extracted/
+.debug/
