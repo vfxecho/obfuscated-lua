@@ -1,0 +1,7 @@
+Luraph v14 Opcode Analysis
+==================================================
+
+Dispatch Tree Points: 0
+Large Strings Found: 89
+
+Note: Full analysis requires dynamic execution hooking
